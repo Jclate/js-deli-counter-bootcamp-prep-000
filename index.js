@@ -24,11 +24,11 @@ function currentLine(currentLine) {
   }
 else {
   var arr = []
-  //for (var i = 0; i < currentLine.length; i+2) {
+  for (var i = 0; i < line; i+2) {
 
-    //currentLine.splice(i, 0, `${(i+1)}.`)
+    currentLine.splice(i, 0, `${(i+1)}.`)
   }
-      return `The line is currently: ${arr}`
+      return `The line is currently: ${currentLine}`
       //${i + 1}. ${currentLine}//
 
 }
